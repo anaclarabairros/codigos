@@ -4,7 +4,7 @@
     --cor-de-fundo: #4ac1d6a1;
     --cor-da-letra: #0330fa;
     --fundo-senha: #98c3e0;
-    --fundo-texto: #909de6;
+    --fundo-texto: #98c3e0;
     --borda: #065481;
     --fonte: ;
     --fonte: ;
@@ -22,7 +22,7 @@ body{
     
 .imagem{
      width: 10%;
-     margin: 1em 2em 0 36em;
+     margin: 1em 2em 0 1em; /*tamanho do lado*/
      justify-content: center;
  }
     
@@ -52,16 +52,22 @@ body{
  }
  /*quadradinho aonde escreve a senha*/
 .conteudo-senha{ 
-    margin-top: 97px;
+    margin-top: 50px;
     background: var(--fundo-senha);
     padding:10px;
     border-bottom: 2px solid var(--borda);
     border-top: 2px solid var(--borda);
+    border-radius: 40px; /* arredonda as ponta */
 }
 
-#campo-senha{ /* não gostei é obrigatorio?*/
-    background-color: var(--fundo-texto);
+#campo-senha{
+    background-color: var(--fundo-texto); /* a mesma do fundo senha*/
     border: none;
     color: var(--cor-da-letra);
+    font-size: 20px;
     width: 70%;
+}
+
+#campo-senha:focus{
+    outline: none;
 }
