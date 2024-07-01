@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Jersey+25+Charted&display=swap');
 
 :root{
     --cor-de-fundo: #4ac1d6a1;
@@ -6,8 +6,8 @@
     --fundo-senha: #98c3e0;
     --fundo-texto: #98c3e0;
     --borda: #065481;
-    --fonte: ;
-    --fonte: ;
+    --fonte1: ;
+    --fonte2:"Jacquard 24 Charted";
 }
 
 body{
@@ -17,7 +17,8 @@ body{
 }
 
 .conteudo{
-    margin: 20px;
+    margin: 0 auto;
+    width: 1200px;
  }
     
 .imagem{
@@ -52,6 +53,7 @@ body{
  }
  /*quadradinho aonde escreve a senha*/
 .conteudo-senha{ 
+    font-family: var(--fonte);
     margin-top: 50px;
     background: var(--fundo-senha);
     padding:10px;
@@ -71,3 +73,24 @@ body{
 #campo-senha:focus{
     outline: none;
 }
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px  /* grossura*/ solid var(--borda);
+    margin-top: 80px;
+    padding: 30px;
+}
+
+/* border: 1px ( espessura ) solid ( color (R,G,B)} cor )*/
+
+.parametro-titulo{
+    font-size:  25px;
+    text-align: center;
+    font-family: var(--fonte2) /* ficou bugada não sei pq*/
+    
+}
+
+.parametro-senha-titulo{
+    font-size: 17px;
+}
+
