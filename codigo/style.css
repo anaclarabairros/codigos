@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 :root{
     --cor-de-fundo: #4ac1d6a1;
@@ -6,8 +6,8 @@
     --fundo-senha: #98c3e0;
     --fundo-texto: #98c3e0;
     --borda: #065481;
-    --fonte1: ;
-    --fonte2:"Jacquard 24 Charted";
+    --fonte1: "Abril Fatface";
+    --fonte2: ;
 }
 
 body{
@@ -31,7 +31,7 @@ body{
     text-align: center;
     width: 100%;
     font-size: 50px;
-    font-family: var(--fonte);
+    font-family: var(--fonte1);
 }
     
 .titulo-secundario{
@@ -92,5 +92,26 @@ body{
 
 .parametro-senha-titulo{
     font-size: 17px;
+}
+
+.parametro-senha{
+    width: 50%; /*tamanho*/
+    margin: 0 auto;
+}
+
+.parametro-coluna-senha{
+    display: flex;
+    flex-direction: row; /* para um ficar um do lado do outro*/
+    justify-content: center;
+
+}
+
+.parametro-senha-titulo{
+    width: 50%;
+    font-size: 18px;
+    margin: 3px 4px 5px 7px;
+    padding: 5px 6px 200px 5px;
+    background-color: #b798e0;
+ 
 }
 
