@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class=" Codigos ">
+    <section class="Codigos">
     <div class="conteudo-titulo">
         <img  class="imagem" src="desbloquear.png" alt="cadeado">
         <h2 class="titulo-principal"> Gerador de Senhas</h2> 
@@ -31,19 +31,28 @@
                 </div>
             </div>
             <div class="parametro-senha">
-                <h4 class="parametro-senha-titulo"> Foça da senha:</h4>
-            </div>
-            <div class="parametro-senha">
                 <h4 class=" parametro-senha-titulo"> Caracteristicas da senha:</h4>
-                <div class="parametro-senha-chekbox">
-                    <input name="maiusculo" type="chekbox" class="chekbox">
+                <div class="parametro-senha-checkbox">
+                    <input name="maiusculo" type="checkbox" class="checkbox">
                     <label for="maiusculo"> letras maiúsculas  </label>
                 </div>
 
-            </div>
-        </div>
-    </div>
-     </scetion>
+                <div class="parametro-senha-chekbox">
+                    <input name="minuscula" type="checkbox" class="checkbox" checked>
+                    <label for="minuscula"> letras minusculas </label>
+                </div>
 
+                <div class="parametro-senha-chekbox">
+                    <input name="numeros" type="checkbox" class="checkbox">
+                    <label for="numeros"> Números </label>
+                </div>
+
+                <div class="parametro-senha-chekbox">
+                    <input name="simbolos" type="checkbox" class="checkbox">
+                    <label for="simbolos"> Símbolos </label>
+                </div>
+            </div>
+    </div>
+</section>
 </html>
 </body>
