@@ -4,7 +4,7 @@
     --cor-de-fundo: #4ac1d6a1;
     --cor-da-letra: #08175c;
     --cor-da-letra2: #2e51f0;
-    --fundo-senha: #98c3e0;
+    --fundo-senha: #6c8bee;
     --fundo-texto: #98c3e0;
     --fundo-texto2: #9348f541;
     --borda: #065481;
@@ -57,7 +57,7 @@ body{
 .conteudo-senha{ 
     font-family: var(--fonte);
     margin-top: 50px;
-    background: var(--fundo-senha);
+    background: var(--fundo-texto);
     padding:10px;
     border-bottom: 2px solid var(--borda);
     border-top: 2px solid var(--borda);
@@ -79,8 +79,8 @@ body{
 .parametro{
     background-color: var(--fundo-texto);
     border: 2px  /* grossura*/ solid var(--borda);
-    margin-top: 80px;
-    padding: 30px;
+    margin-top: 20px;
+    padding: 7px;
 }
 
 /* border: 1px ( espessura ) solid ( color (R,G,B)} cor )*/
@@ -93,8 +93,9 @@ body{
 }
 
 .parametro-senha{
-    width: 50%; /*tamanho*/
-    margin: 0 auto;
+    width: 40%; /*tamanho*/
+    margin: 7px;
+    border: 2px solid var(--borda);
 }
 
 .parametro-coluna-senha{
@@ -105,9 +106,8 @@ body{
 }
 
 .parametro-senha-titulo{
-    width: 60%;
+    width: 50%;
     font-size: 18px;
- 
 }
 
 .parametro-senha-botoes{
@@ -125,9 +125,9 @@ body{
 
 .parametro-senha-botao{ /* edita os sinais + e - */
     display: flex;
-    padding: 10px;
+    padding: 12px;
     align-items: center;
-    width: 3px 1px 60px 70px;
+    width: 8%;
     border-top: 2px solid var(--borda) ;
     border-bottom: 2px solid var(--borda);
     border: 2px solid var(--borda);
@@ -141,6 +141,26 @@ label{
     width: 80px;
     height: 18px;
     cursor: pointer;
+}
+
+.checkbox{
+    width: 30px;
+    height: 20px;
+    font-size: 40px;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.fraco{
+    height: 30px;
+    width: 30%;
+    background-color: red;
+    position: relative;
+    bottom: 30px;
 }
 
 
