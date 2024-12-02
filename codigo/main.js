@@ -11,12 +11,14 @@ function diminuirTamanho(){
     if(tamanhoSenha>8){
     tamanhoSenha=tamanhoSenha-1;
     numeroSenha.textContent = tamanhoSenha;
+    geraSenha();
 }
  }
 function aumentarTamanho(){
     if(tamanhoSenha<18){
     tamanhoSenha=tamanhoSenha+1;
     numeroSenha.textContent = tamanhoSenha;
+    geraSenha();
 }
  }
 
